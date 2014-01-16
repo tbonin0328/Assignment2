@@ -21,6 +21,10 @@ public partial class _Default : System.Web.UI.Page
             c.LastName = txtLastName.Text;
             c.FirstName = txtFirstName.Text;
             c.Email = txtEmail.Text;
+            c.Address = txtAddress.Text;
+            c.City = txtCity.Text;
+            c.State = txtState.Text;
+            c.ZipCode = txtZip.Text;
             c.Phone = txtPhone.Text;
             c.Password = txtPassword.Text;
             Session["newCustomer"] = c;

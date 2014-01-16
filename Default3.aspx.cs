@@ -9,7 +9,7 @@ public partial class Default3 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        string lastName = Request.QueryString["name"];
-        Label1.Text = "Thank you for your submission, " + lastName ;
+        string firstName = Request.QueryString["firstname"];
+        lblthankYou.Text = "Thank you for your submission, " + firstName + "!";
     }
 }

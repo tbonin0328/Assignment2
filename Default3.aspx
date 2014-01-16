@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    <h2>Submitted</h2>
+    <asp:Label ID="lblthankYou" runat="server" Text="Thank You!"></asp:Label>
 </asp:Content>
 

@@ -15,6 +15,10 @@ public partial class Default2 : System.Web.UI.Page
             txtFirstName.Text = c.FirstName;
             txtLastName.Text = c.LastName;
             txtEmail.Text = c.Email;
+            txtAddress.Text = c.Address;
+            txtCity.Text = c.City;
+            txtState.Text = c.State;
+            txtZip.Text = c.ZipCode;
             txtPhone.Text = c.Phone;
             txtPassword.Text = c.Password;
             txtConfirm.Text = c.Password;
